@@ -151,7 +151,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Jl-UH0LTTN9lfhOdkYmT" name="SSL">
-    <mxGraphModel dx="1034" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1088" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -169,45 +169,45 @@
         </mxCell>
         <mxCell id="n7DoSQi8Z4Zvw-eZjfnm-8" edge="1" parent="1" source="n7DoSQi8Z4Zvw-eZjfnm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="520" as="targetPoint" />
+            <mxPoint x="320" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n7DoSQi8Z4Zvw-eZjfnm-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SSLVPN网关" vertex="1">
-          <mxGeometry height="30" width="60" x="250" y="60" as="geometry" />
+          <mxGeometry height="30" width="60" x="290" y="60" as="geometry" />
         </mxCell>
         <mxCell id="n7DoSQi8Z4Zvw-eZjfnm-9" edge="1" parent="1" source="n7DoSQi8Z4Zvw-eZjfnm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="520" as="targetPoint" />
+            <mxPoint x="520" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n7DoSQi8Z4Zvw-eZjfnm-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="认证服务器" vertex="1">
-          <mxGeometry height="30" width="60" x="410" y="60" as="geometry" />
+        <mxCell id="n7DoSQi8Z4Zvw-eZjfnm-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="认证&lt;div&gt;服务器&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="490" y="60" as="geometry" />
         </mxCell>
         <mxCell id="n7DoSQi8Z4Zvw-eZjfnm-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="120" y="120" as="sourcePoint" />
-            <mxPoint x="280" y="120" as="targetPoint" />
+            <mxPoint x="320" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n7DoSQi8Z4Zvw-eZjfnm-12" connectable="0" parent="n7DoSQi8Z4Zvw-eZjfnm-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="发送连接请求&lt;div&gt;协商加密算法套件&lt;/div&gt;" vertex="1">
+        <mxCell id="n7DoSQi8Z4Zvw-eZjfnm-12" connectable="0" parent="n7DoSQi8Z4Zvw-eZjfnm-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ClientHello，发送连接请求&lt;div&gt;协商加密算法套件&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1825" y="1" as="geometry">
             <mxPoint x="15" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n7DoSQi8Z4Zvw-eZjfnm-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="280" y="150" as="sourcePoint" />
+            <mxPoint x="320" y="150" as="sourcePoint" />
             <mxPoint x="120" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n7DoSQi8Z4Zvw-eZjfnm-14" connectable="0" parent="n7DoSQi8Z4Zvw-eZjfnm-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="发送连接请求&lt;div&gt;协商加密算法套件&lt;/div&gt;" vertex="1">
+        <mxCell id="n7DoSQi8Z4Zvw-eZjfnm-14" connectable="0" parent="n7DoSQi8Z4Zvw-eZjfnm-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ServerHello，发送连接请求&lt;div&gt;协商加密算法套件&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.2575" as="geometry">
             <mxPoint x="21" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n7DoSQi8Z4Zvw-eZjfnm-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="280" y="190" as="sourcePoint" />
+            <mxPoint x="320" y="190" as="sourcePoint" />
             <mxPoint x="120" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -218,7 +218,7 @@
         </mxCell>
         <mxCell id="n7DoSQi8Z4Zvw-eZjfnm-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;startArrow=classic;startFill=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="280" y="209" as="sourcePoint" />
+            <mxPoint x="320" y="210" as="sourcePoint" />
             <mxPoint x="120" y="209" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -245,11 +245,11 @@
         <mxCell id="n7DoSQi8Z4Zvw-eZjfnm-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="250" y="239" />
-              <mxPoint x="250" y="259" />
+              <mxPoint x="290" y="239" />
+              <mxPoint x="290" y="259" />
             </Array>
-            <mxPoint x="280" y="239" as="sourcePoint" />
-            <mxPoint x="280" y="259" as="targetPoint" />
+            <mxPoint x="320" y="239" as="sourcePoint" />
+            <mxPoint x="320" y="259" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n7DoSQi8Z4Zvw-eZjfnm-23" connectable="0" parent="n7DoSQi8Z4Zvw-eZjfnm-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="获取量子密钥" vertex="1">
@@ -275,11 +275,11 @@
         <mxCell id="n7DoSQi8Z4Zvw-eZjfnm-26" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="250" y="279" />
-              <mxPoint x="250" y="299" />
+              <mxPoint x="290" y="279" />
+              <mxPoint x="290" y="299" />
             </Array>
-            <mxPoint x="280" y="279" as="sourcePoint" />
-            <mxPoint x="280" y="299" as="targetPoint" />
+            <mxPoint x="320" y="279" as="sourcePoint" />
+            <mxPoint x="320" y="299" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n7DoSQi8Z4Zvw-eZjfnm-27" connectable="0" parent="n7DoSQi8Z4Zvw-eZjfnm-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="量子密钥与会话密钥融合" vertex="1">
@@ -290,7 +290,7 @@
         <mxCell id="n7DoSQi8Z4Zvw-eZjfnm-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="120" y="359" as="sourcePoint" />
-            <mxPoint x="280" y="359" as="targetPoint" />
+            <mxPoint x="320" y="359" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n7DoSQi8Z4Zvw-eZjfnm-31" connectable="0" parent="n7DoSQi8Z4Zvw-eZjfnm-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="发送量子密钥加密的&lt;div&gt;登录请求&lt;/div&gt;" vertex="1">
@@ -300,8 +300,8 @@
         </mxCell>
         <mxCell id="hu0V08G5CW4j_ICH56VM-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="280" y="418" as="sourcePoint" />
-            <mxPoint x="440" y="418" as="targetPoint" />
+            <mxPoint x="320" y="418" as="sourcePoint" />
+            <mxPoint x="520" y="418" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hu0V08G5CW4j_ICH56VM-3" connectable="0" parent="hu0V08G5CW4j_ICH56VM-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="转发登录请求" vertex="1">
@@ -311,8 +311,8 @@
         </mxCell>
         <mxCell id="hu0V08G5CW4j_ICH56VM-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="440" y="438" as="sourcePoint" />
-            <mxPoint x="280" y="438" as="targetPoint" />
+            <mxPoint x="520" y="438" as="sourcePoint" />
+            <mxPoint x="320" y="438" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hu0V08G5CW4j_ICH56VM-5" connectable="0" parent="hu0V08G5CW4j_ICH56VM-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="发送认证结果" vertex="1">
@@ -323,13 +323,13 @@
         <mxCell id="hu0V08G5CW4j_ICH56VM-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="280" y="369" />
               <mxPoint x="320" y="369" />
+              <mxPoint x="360" y="369" />
+              <mxPoint x="360" y="389" />
               <mxPoint x="320" y="389" />
-              <mxPoint x="280" y="389" />
             </Array>
-            <mxPoint x="280" y="369" as="sourcePoint" />
-            <mxPoint x="280" y="389" as="targetPoint" />
+            <mxPoint x="320" y="369" as="sourcePoint" />
+            <mxPoint x="320" y="389" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hu0V08G5CW4j_ICH56VM-7" connectable="0" parent="hu0V08G5CW4j_ICH56VM-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="解析用户标识" vertex="1">
@@ -339,7 +339,7 @@
         </mxCell>
         <mxCell id="8J2mA8Co1mftR1H9YV_R-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="280" y="459" as="sourcePoint" />
+            <mxPoint x="320" y="459" as="sourcePoint" />
             <mxPoint x="120" y="459" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -358,9 +358,9 @@
             <mxPoint x="120" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8J2mA8Co1mftR1H9YV_R-8" connectable="0" parent="8J2mA8Co1mftR1H9YV_R-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="获取量子&lt;div&gt;用户标识&lt;/div&gt;" vertex="1">
+        <mxCell id="8J2mA8Co1mftR1H9YV_R-8" connectable="0" parent="8J2mA8Co1mftR1H9YV_R-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="获取加密用户&lt;div&gt;标识&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;的量子密钥&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.05" y="-1" as="geometry">
-            <mxPoint x="-30" y="2" as="offset" />
+            <mxPoint x="-42" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
